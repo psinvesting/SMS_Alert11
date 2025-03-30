@@ -9,10 +9,10 @@ import pytz
 from datetime import datetime, timedelta
 
 # Twilio configuration
-TWILIO_ACCOUNT_SID = 'AC3d9321926463f58138250b1c4ac732c6'
-TWILIO_AUTH_TOKEN = 'deb3aec65ecb3ae85944bb18acc4e004'
-TWILIO_PHONE_NUMBER = '+19282501419'
-TO_PHONE_NUMBER = '+919866040333'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_PHONE_NUMBER = ''
+TO_PHONE_NUMBER = ''
 
 # Delta Exchange API endpoint
 SYMBOLS_API_URL = 'https://api.india.delta.exchange/v2/products'
