@@ -120,4 +120,4 @@ for symbol in trading_pairs:
         if min_current_volume > max_previous_volume:
            #print(f": {symbol}: {current_volume}")
             send_alert(f"Alert! for {symbol} Volume: {min_current_volume}.")
-#time.sleep(900)  # Wait for 15 minutes before checking again
+time.sleep(900)  # Wait for 15 minutes before checking again
