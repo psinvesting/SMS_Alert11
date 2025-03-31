@@ -1,5 +1,5 @@
-!pip install requests
-!pip install twilio
+#!pip install requests
+#!pip install twilio
 import pandas as pd
 import requests
 import time
